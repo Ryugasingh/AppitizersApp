@@ -6,7 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		358FFF8B2D96E7F1001BF0F9 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FFF8A2D96E7F1001BF0F9 /* AccountViewModel.swift */; };
+		3592F5652D97DCDD009B61E1 /* string+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3592F5642D97DCDD009B61E1 /* string+Ext.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		358FFF8A2D96E7F1001BF0F9 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		3592F5642D97DCDD009B61E1 /* string+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "string+Ext.swift"; sourceTree = "<group>"; };
 		35C117932CDA378100E90A4E /* AppitizersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppitizersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -32,6 +39,8 @@
 		35C1178A2CDA378000E90A4E = {
 			isa = PBXGroup;
 			children = (
+				358FFF8A2D96E7F1001BF0F9 /* AccountViewModel.swift */,
+				3592F5642D97DCDD009B61E1 /* string+Ext.swift */,
 				35C117952CDA378100E90A4E /* AppitizersApp */,
 				35C117942CDA378100E90A4E /* Products */,
 			);
@@ -119,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				358FFF8B2D96E7F1001BF0F9 /* AccountViewModel.swift in Sources */,
+				3592F5652D97DCDD009B61E1 /* string+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
